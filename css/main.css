@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.wrapper {
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: auto;
+}
+.main-header a img {
+  max-width: 184px;
+  height: 45px;
+  padding-top: 20px;
+  padding-left: 54px;
+}
+
+.main-header {
+  background: #007765;
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  width: 100vw;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  overflow: overlay;
+}
+.header-wrapper .header-navigation ul {
+  margin: 0;
+}
+
+.header-wrapper .header-navigation li {
+  display: inline-block;
+  padding-top: 23px;
+}
+
+#header-elem {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-wrapper .header-navigation li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-wrapper .header-navigation {
+  padding-right: 55px;
+  float: right;
+}
+
+.Jumbotron {
+  background: url("../images/intro-bg.jpg") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+
+  height: 403px;
+  padding-top: 80px;
+}
+.Jumbotron h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 83px;
+  font-size: 72px;
+  font-weight: 500;
+}
+.problem p {
+  text-align: left;
+  font-size: 32px;
+}
+.problem {
+  background: #eeeeee;
+  background-size: cover;
+  width: 100vw;
+}
+h2 {
+  color: #007765;
+  font-size: 64px;
+  margin-top: auto;
+  text-align: center;
+
+  padding-top: 42px;
+}
+
+p#last-paragraph {
+  margin-bottom: 0;
+  padding-bottom: 48px;
+}
+
+.hero p {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin-top: auto;
+  color: #ffffff;
+  padding-top: 128px;
+  margin-bottom: 0;
+  padding-bottom: 128px;
+}
+
+.hero {
+  background: url("../images/hero-bg.jpg") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+}
+.ppc {
+  background: #ffffff;
+  background-size: cover;
+  width: 100vw;
+}
+
+.ppc p {
+  font-size: 32px;
+  text-align: left;
+}
+.ppc img {
+  float: left;
+  margin-right: 42px;
+}
+
+.team {
+  background: #eeeeee;
+  background-size: cover;
+  width: 100vw;
+  padding-bottom: 28px;
+}
+
+.team .team-table img {
+  border-radius: 100px;
+}
+
+.team .team-table {
+  width: 100%;
+}
+.team .team-table td {
+  text-align: center;
+
+  padding: 15px;
+}
+.team .team-table p#Name {
+  color: #007765;
+  font-weight: bold;
+  font-size: 24px;
+  margin: auto;
+}
+
+.team .team-table p#Name + p {
+  font-style: italic;
+  font-size: 20px;
+  margin: auto;
+}
+
+.footer {
+  background: #333333;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 18px;
+  max-width: 500px;
+  color: #ffffff;
+
+  margin-top: auto;
+  padding-right: 18vw;
+  margin-bottom: 0;
+  padding-left: 18vw;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
