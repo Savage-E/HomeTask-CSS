@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 .wrapper {
+  box-sizing: border-box;
   max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
-  margin: auto;
 }
 .main-header a img {
   max-width: 184px;
@@ -89,7 +91,7 @@ p#last-paragraph {
   padding-bottom: 48px;
 }
 
-.hero p {
+.hero-text {
   font-size: 48px;
   font-style: italic;
   font-weight: 500;
@@ -137,36 +139,39 @@ p#last-paragraph {
 }
 .team .team-table td {
   text-align: center;
-
+  display: inline-block;
   padding: 15px;
 }
-.team .team-table p#Name {
+.team .team-table span#Name {
   color: #007765;
   font-weight: bold;
   font-size: 24px;
   margin: auto;
+  clear: both;
 }
 
-.team .team-table p#Name + p {
+.team .team-table span#Name + span {
   font-style: italic;
   font-size: 20px;
   margin: auto;
+  clear: both;
+  float: ;
 }
 
 .footer {
   background: #333333;
 }
 
-.footer p {
+.footer-text {
   text-align: center;
   font-size: 18px;
   max-width: 500px;
   color: #ffffff;
 
   margin-top: auto;
-  padding-right: 18vw;
+  /* padding-right: 18vw;*/
   margin-bottom: 0;
-  padding-left: 18vw;
+  /* padding-left: 18vw;*/
   padding-top: 42px;
   padding-bottom: 42px;
 }
