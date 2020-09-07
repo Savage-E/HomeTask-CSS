@@ -173,11 +173,7 @@ p#last-paragraph {
   font-size: 18px;
   max-width: 500px;
   color: #ffffff;
-
-  margin-top: auto;
-
-  margin-bottom: 0;
-  padding-left: 15vw;
+  margin: auto;
   padding-top: 42px;
   padding-bottom: 42px;
 }
